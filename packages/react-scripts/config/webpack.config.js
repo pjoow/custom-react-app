@@ -445,6 +445,7 @@ module.exports = function (webpackEnv) {
                         },
                       },
                     },
+                    require.resolve('babel-plugin-react-intl')
                   ],
                   isEnvDevelopment &&
                     shouldUseReactRefresh &&
